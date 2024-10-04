@@ -14,7 +14,21 @@ body{
     scroll-behavior: smooth;
     background-color: rgba(0, 0, 0, 0);
 }
+.art-icons{
+    width:30px;
+    height:30px;
+}
+.art-icons1{
+    width:50px;
+    height:50px;
+}
+.pre-about{
+    text-wrap: balance;
+    background-color: #fef3e9;
+    border-radius: 20px;
 
+    
+}
 nav{
     position: fixed; /* Fixes the navbar to the top */
     top: 0px;
@@ -47,7 +61,7 @@ nav{
 }
 
 .logo span{
-    color: #a57d67;
+    color: #886654;
     text-shadow: 0 0 10px #f3ddc2;
 }
 
@@ -160,7 +174,7 @@ section{
     border-radius: 60%;
     overflow: hidden;
     box-shadow: 0 0 5px #e4c39b;
-    border:#a57d67 2px solid;
+    border:#886654 2px solid;
 }
 
 .main-container .image img{
@@ -178,7 +192,7 @@ section{
 .downloadbtn {
     padding:8px 35px;
     text-decoration: none;
-    border:#a57d67 3px solid;
+    border:#886654 3px solid;
     color:black;
     border-radius: 35px;
     position:absolute;
@@ -194,12 +208,12 @@ section{
   
     scale: 1.1;
     color: black;
-    background-color: #a57d67;
-    filter: drop-shadow(0 0 10px #a57d67);
+    background-color: #886654;
+    filter: drop-shadow(0 0 10px #886654);
     
 }
 .about-me{
-    color:#a57d67;
+    color:#886654;
     font-weight: 350;
     text-align: center;
 }
@@ -214,20 +228,20 @@ section{
 }
 #research{
     height:auto;
-    background-color: #f7eade;
+    background-color: #f5ede5;
     align-content: center;
    
 }
 .rectangle-container {
     width :85%;
-    padding:20px;
+    padding:40px;
     margin-top:20px;
     margin-left:30px;
     border-radius:20px;
     font-weight:100;
-    color: #000;
+    color: rgb(116, 115, 115);
     text-align: center;
-    height:49%;
+    height:46%;
 
 
 }
@@ -243,7 +257,7 @@ section{
     padding-right: 15px;
     width: fit-content;
     font-size: smaller;
-    border: 2px solid #a57d67;
+    border: 2px solid #886654;
     background-color: #fff;
     border-radius:40px;
     margin-top: 40px;
@@ -305,23 +319,34 @@ section{
     
     align-content: center;
 }
-
+.college{
+    color: #7b7a77;
+    font-size: small;
+    font-weight: 200;
+}
 .about-me-txt{
    
-    font-weight:350;
-    color: black;
-    text-align:left;
+    font-weight: 400;
+    color: #7b7a77;
+    text-align: left;
     margin-top: 20px;
-    padding: 30px;
-    background-color: #fef3e9;
-    border-radius: 15px;
-    font-size: small;
+    padding: 50px;
+    border-radius: 25px;
+    /* background-color: rgb(251, 249, 227); */
+    font-size: 13px;
     letter-spacing: 1px;
+    border: 3px solid #f4dfc2;
+   
+}
+.about-me-txt:hover{
+    
+    animation: animate 1.5s ease-in-out infinite;
+
 }
 .edu-txt{
-    font-size: small;
-    font-weight:300;
-    color: black;
+    font-size: 14px;
+    font-weight:400;
+    color: #7b7a77;
 }
 @keyframes animate {
     0%{
@@ -350,7 +375,7 @@ section{
 }
 
 .content h1 span{
-    color: #a57d67;
+    color: #886654;
     text-shadow: 0  0 10px #ecdcc7;
     font-weight: 400;
 }
@@ -366,7 +391,7 @@ section{
 }
 
 .content .typewriter-text{
-    color: #a57d67;
+    color: #886654;
     text-shadow: 0 0 10px #f4ede4;
 }
 
@@ -382,9 +407,9 @@ section{
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid #a57d67;
+    border: 0.2rem solid #886654;
     border-radius: 50%;
-    color: #a57d67;
+    color: #886654;
     margin: 5px 15px;
     font-size: 1.5rem;
     transition: 0.2s linear;
@@ -393,15 +418,15 @@ section{
 .social-links i:hover{
     scale: 1.3;
     color: black;
-    background-color: #a57d67;
-    filter: drop-shadow(0 0 10px #a57d67);
+    background-color: #886654;
+    filter: drop-shadow(0 0 10px #886654);
 }
 
 .content button{
     width: 50%;
     height: 6vh;
     margin: 30px;
-    background-color: #a57d67;
+    background-color: #886654;
     color: rgb(60, 59, 59);
     border: none;
     outline: none;
@@ -413,14 +438,14 @@ section{
 
 .content button:hover{
     scale: 1.1;
-    color: #a57d67;
-    border: 2px solid #a57d67;
+    color: #886654;
+    border: 2px solid #886654;
     background-color: transparent;
     font-weight: 700;
-    box-shadow: 0 0 40px #a57d67;
+    box-shadow: 0 0 40px #886654;
 }
 #EXPERIENCE{
-    background-color:#c5bab0;
+    background-color:#76614d;
     
 }
 #PROJECTS{
@@ -746,7 +771,7 @@ p {
   }
   
   .contact-title {
-    color: #a57d67;
+    color: #886654;
     font-weight: 450;
     font-size: 1.5rem;
     line-height: 1;
@@ -762,10 +787,10 @@ p {
   .input {
     width: 100%;
     outline: none;
-    border: 2px solid #a57d67;
+    border: 2px solid #886654;
     background-color: #f7f4f3;
     padding: 0.6rem 1.2rem;
-    color: #a57d67;
+    color: #886654;
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
@@ -792,7 +817,7 @@ p {
     left: 15px;
     transform: translateY(-50%);
     padding: 0 0.4rem;
-    color: #a57d67;
+    color: #886654;
     font-size: 0.9rem;
     font-weight: 400;
     pointer-events: none;
@@ -811,7 +836,7 @@ p {
   .btn {
     width: 100%;
     padding: 0.6rem 1.3rem;
-    background-color: #a57d67;
+    background-color: #886654;
     font-size: 0.95rem;
     color: #fdfbf9;
     line-height: 1;
@@ -824,7 +849,7 @@ p {
   .form-btn {
     width: 100%;
     padding: 0.6rem 1.3rem;
-    background-color: #a57d67;
+    background-color: #886654;
     border: 2px solid #95705c;
     font-size: 0.95rem;
     color: #fdfbf9;
@@ -837,8 +862,8 @@ p {
   }
   
   .btn:hover {
-    border: 2px solid #a57d67;
-    background-color: #a57d67;
+    border: 2px solid #886654;
+    background-color: #886654;
     color: #fff;
   }
   .popup{
@@ -979,7 +1004,7 @@ p {
   }
   
   .contact-info .title {
-    color: #a57d67;
+    color: #886654;
   }
   
 
@@ -1028,10 +1053,7 @@ p {
     .container {
       padding: 1.5rem;
     }
-  
-  
-  
- 
+
     form,
     .contact-info {
       padding: 1.7rem 1.6rem;
