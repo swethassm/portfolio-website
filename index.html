@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Swetha Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Swetha <span>Menon</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#" onclick="showDiv(event,'home')"">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#" onclick="showDiv(event,'about')">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#" onclick="showDiv(event,'EXPERIENCE')">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#" onclick="showDiv(event,'PROJECTS')">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#" onclick="showDiv(event,'research')">Publication</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#" onclick="showDiv(event,'skills')">Skills</a></div>
+              
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#" onclick="showDiv(event,'contact')">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="content1">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Swetha</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">See you at Grace Hopper Celebration 2024! Passionate coder! Actively seeking fulltime Software Engineering and AI/ML Engineering Roles in USA. </p>
+                <div class="social-links">
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="./swetha_menon_resume.pdf" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" class="downloadbtn" download>Download CV</a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="about" class="content1">
+        <h1 class = about-me data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">About Me</h1>
+        <div class="sub-container">
+          
+            <div class="about-me-container" >
+            
+            <p class = "about-me-txt">   Hey folks !!!  I am Computer Engineering Masters graduate student with 2+ years of work experience in developing solutions for
+                e-commerce applications looking for software engineering roles with proven competence in developing scalable deep
+                learning models trainable on GPUs. 
+                 I am passioante about all the things I do and love to explore new things be it in tech or otherwise. 
+                 I love cooking, baking, travelling, painting different forms of art and trained carnatic singer.
+                <br>
+                In-depth knowledge of full-stack engineering to build interactive and user-centered
+                software frameworks to scale. Recipient of Scholarship Award (2022-23) for tuition assistance offered by Purdue
+                University Graduate Program.
+
+                I love coding and problem solving since my high school days. 
+                In-depth knowledge of full-stack engineering to build interactive and user-centered
+                software frameworks to scale. Recipient of Scholarship Award (2022-23) for tuition assistance offered by Purdue
+                University Graduate Program.
+                
+            </p>
+            </div>
+            <div class="about-me-container">
+                <div class ="rectangle-container rect1">
+                 <img class="img-about" src="education.png" alt="">
+                 <h3>Education</h3>
+                 <p class="edu-txt">B.Tech in Computer Science and Engineering</p>
+                 <p class="edu-txt">Master's in Computer Engineering</p>
+                </div>
+              
+               
+               <div class ="rectangle-container rect2">
+                <img class="img-about" src="briefcase.png" alt="">
+                <h3>Experience</h3>
+                <p class="edu-txt">Software Engineer with 1+ years of industry experience at redBus and 2 internships experience</p>
+                <p class="edu-txt">Co-Advisor at EPICS, Purdue University West Lafayette.(Volunteer) </p>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <section id="EXPERIENCE"  class="content1">
+        <h1 class = "exp">Experience</h1>
+        <div class="timeline">
+            <div class="exp-container left-container">
+                <img src ="purdue_logo.webp" >
+                <div class="text-box">
+                    <h2>EPICS, Purdue University</h2>
+                    <small>2024-present</small>
+                    <p>Providing mentorship and co-advising students for four EPICS projects – EdTech Africa, SCAN, IMS and ISD.</p>
+                        <p> • Assisting other co-advisors or instructors for four the projects and monitoring students’ progress, evaluating projects developed by the students, suggesting options to address obstacles faced by the students, and promoting best
+                        practices, safety, and sustainability in the field of software development and deployment.</p>
+                        <p>• Developing, delivering skill and training sessions throughout the semester.</p>
+                        <p>• Providing constructive feedback before and after design review events</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+            <div class="exp-container right-container">
+                <img src ="redbuslogo.png" >
+                <div class="text-box">
+                    <h2>Software Engineer, redBus</h2>
+                    <small>2017-2018</small>
+                    <p> •Key contributor to the successful revamp of the redBus website, achieving significantly faster rendering speeds through code migration using the React framework and implementing ‘dynamic filters’ for the booking platform that has a customer base of 36 million.</p>
+                    <p> •Played a pivotal role as a full stack web developer for the Business to Customer web team, driving website development, product features development and maintenance efforts for redBus website.</p>
+                    <p> •Delivered a remarkable 10% improvement in the conversion ratio of personalized features like Book Again - Book Return - Resume Booking Flow during ticket reservation.</p>
+                    <p> •Utilized Google Analytics tool to continuously monitor and optimize the website’s conversion ratio, ensuring a seamless user experience.</p>
+                    <p> •Innovated novel product features and seamlessly deployed code to the production environment while proactively resolving production bugs enhancing significant improvement in web functionality and speed.</p>
+                    <p> •Gained experience in HTML5, CSS3, React.js, MongoDB, C#, .Net, SQL, Microsoft development tools, Windows operating system, Jira, Git, and Jenkins.
+                        </p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+            <div class="exp-container left-container">
+                <img src ="niclogo.png" >
+                <div class="text-box">
+                    <h2>Intern, National Informatics Center</h2>
+                    <small>2016 Summer</small>
+                    <p>•	Assisted in the development of a C++ module in QT framework that seamlessly linked the System for Attumanal Neutral Distribution (SAND) project with a Point of Sale (POS) device, enabling efficient tracking of vehicles entering mining areas.  </p>
+                        <p> •	Demonstrated expertise in system design, business process re-engineering, and technical documentation, contributing to the project's overall success.  </p>
+                            <p> •	The project helped provide a groundbreaking solution to combat illegal sand mining from riverbeds, resulting in a remarkable 70% reduction in such activities across the entire state of Kerala.
+                        
+                        </p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+            <div class="exp-container right-container">
+                <img src ="hbllogo.jpeg" >
+                <div class="text-box">
+                    <h2>Intern, HBL BioTech Ltd</h2>
+                    <small>2016 Summer</small>
+                    <p>Gained exposure in various departments of the company, including, HR, information technology, QA & QC, and IVC
+                        site visiting. </p>
+                        <p> Also gained exposure in setting up computer network connections for the new factory setup.</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="PROJECTS"  class="content1">
+        <h1 class = about-me>Projects</h1>
+        <div class="sub-container">
+            <div class="card-container">
+                <div class="card card0">
+                    <img src="images.jpeg">
+                    <div class="card-content">
+                        <h3 class="proj-title">Key Frame-Based Video Summarization
+                        </h3>
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card card1">
+                    <img src="Proj1.png">
+                    <div class="card-content">
+                        <h3 class="proj-title">Smart Blind Cane </h3>
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card card2">
+                    <img src="PROJ1.avif">
+                    <div class="card-content">
+                        <h3 class="proj-title">RideShare - Mobile Application</h3>
+                        
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-container">
+            <div class="card-container">
+                <div class="card card3">
+                    <img src="PROJ1.avif">
+                    <div class="card-content">
+                        <h3 class="proj-title">Voice Command Controlled Automatic Door</h3>
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card card4">
+                    <img src="Proj2.png">
+                    <div class="card-content">
+                        <h3 class="proj-title">Distributed Matrix Multiplication using MPI</h3>
+                        
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card card6">
+                    <img src="Proj1.png">
+                    <div class="card-content">
+                        <h3 class="proj-title">Applying Vision Transformers for Image Synthesis and Inpainting</h3>
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-container">
+            <div class="card-container">
+                <div class="card card7">
+                    <img src="PROJ1.avif">
+                    <div class="card-content">
+                        <h3 class="proj-title">Real-Time Lane Tracking with i.MX 8M Mini Processor</h3>
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+      
+            <div class="card-container">
+                <div class="card card1">
+                    <img src="PROJ1.avif">
+                    <div class="card-content">
+                            <h3 class="proj-title">Sudoku Solver</h3>
+                            <a href="" class="btn" id="open-popup">Read More</a>
+    
+                    </div>
+                </div>
+            </div>
+       
+            <div class="card-container">
+                <div class="card card2">
+                    <img src="PROJ1.avif">
+                    <div class="card-content">
+                        <h3 class="proj-title">Porfolio Website</h3>
+                        <a href="" class="btn" id="open-popup">Read More</a>
+
+                </div>
+         </div>
+    </div>
+                  
+
+           
+
+           
+        </div>
+    </section>
+    <div class="popup" id="popup">
+        <div class="overlay"></div>
+        <div class="popup-content">
+            <h2> This is popup title</h2>
+            <p>sdmskafmks sadkjdf sd af  f AD FSD  f dsf sdfdsf  sdfsdffss </p>
+            <div class="controls">
+                <button class="close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+    <section id="research"  class="content1">
+        <h1 class = "about-me">Publications & Awards</h1>
+        <div class ="research-container">
+          
+            <div class ="pub-container"> <div class="img_pub awards-left"><img class="awards" src="publication.png"></div><div class="text_pub"><p> S.S. Menon, E.M.Sharkawy. Lidar based 3D object detection using Yolov8 and Euler Region Proposal Network - Under-Review, 2024.</p></div></div>
+
+            <div class ="pub-container"> <div class="img_pub awards-left"><img class="awards" src="award.png"></div><div class="text_pub"> <p>Graduate Student Scholarship Award, Dept. Of Electrical and Computer Engineering, Purdue School of Engineering and Technology. </p></div></div>
+           
+           
+            <div class ="pub-container"> <div class="img_pub awards-left"><img class="awards" src="award.png"></div><div class="text_pub"> <p> Rajya Puraskar Award, National Level Recognition Honored by Barath Scouts and Guides.</p></div></div>
+          
+            <div class ="pub-container"> <div class="img_pub awards-left"><img class="awards" src="award.png"></div><div class="text_pub"> <p> Nationa Award for Project Presentation at Social Science Exhibition cum National Integration Camp, KVS, Nationals.</p></div></div>
+           
+
+          
+            <div class ="pub-container"> <div class="img_pub awards-left"><img class="awards" src="award.png"></div><div class="text_pub"> <p> Second Prize for Project Development and Presentation, in MEC Labs a Techno Managerial Fest held by Model Engineering College.</p></div></div>
+          
+           
+
+   </div>
+    </section>
+    <section id="skills"  class="content1">
+        <h1 class = about-me>Skills</h1>
+        <div class="sub-container">
+            <div class="skill-container">
+                
+                    <img src="skillogos/c++.svg">
+                  
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/c.svg">
+              
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/csharp.svg">
+              
+            </div>
+
+            <div class="skill-container">
+                
+                <img src="skillogos/java.svg">
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/mysql.svg">
+              
+
+            </div>
+
+        </div>
+        <div class="sub-container">
+            <div class="skill-container">
+                
+                    <img src="skillogos/javascript.svg">
+                  
+            </div>
+            
+            <div class="skill-container">
+                
+                <img src="skillogos/react.svg">
+              
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/html.svg">
+              
+
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/css.svg">
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/jquery.svg">
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/amazon.svg">
+              
+            </div>
+                
+        </div>
+        <div class="sub-container">
+            <div class="skill-container">
+                
+                    <img src="skillogos/json.svg">
+                  
+            </div>
+            
+            <div class="skill-container">
+                
+                <img src="skillogos/mongodb.svg">
+              
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/npm.svg">
+              
+
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/typescript.svg">
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/github.svg">
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/gitlab.svg">
+              
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/sublime.svg">
+            </div>
+            <div class="skill-container">
+                
+                <img src="skillogos/redis.svg">
+              
+            </div>
+           
+                
+        </div>
+      
+    </section>
+    <section id="Badges" class="content1">
+        <h1 class = "about-me">Coding Badges</h1>
+        <div class="sub-container">
+            <div class="badge-container">
+                
+                    <img src="Leetcode100.gif">
+                  
+            </div>
+            <div class="badge-container mid_lc">
+                
+                <img src="Leetcode24.png">
+              
+
+            </div>
+            <div class="badge-container">
+                
+                <img src="Lc50.gif">
+                
+
+        </div>
+    </section>
+  
+    <section id="contact" class="content1" >
+        <h1 class = about-me>Get In Touch!</h1>
+        <div class="contact-container">
+           
+         
+            <div class="form">
+              <div class="contact-info">
+      
+              <div class="contact-form">
+               
+      
+                <form action="index.html" autocomplete="off" onsubmit="sendEmail(); reset(); return false;" >
+                  <h3 class="contact-title">Email Me</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" id="name" class="input" />
+                    <label for="">Name</label>
+                  
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email"  id="email" class="input" />
+                    <label for="">Email</label>
+                    
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" id="phone" class="input" />
+                    <label for="">Phone</label>
+                    
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" id="message" class="input"></textarea>
+                    <label for="">Message</label>
+                   
+                  </div>
+                  <input type="submit" value="Send" class="form-btn" />
+                </form>
+              </div>
+            </div>
+          </div>
+          </section>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
